@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftMixObjectiveCModule_Tests' do
+  pod 'SwiftMixObjectiveCModule', :path => '../'
+  
+  
+end
