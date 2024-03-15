@@ -16,7 +16,10 @@ public class SMOObjeciveCMethodCaller : NSObject {
     }
     
     public class func logSwiftUtilInsideSamePod() {
-        
+        let info = "from \(#file)"
+        SMOObjectiveCUtils.logClassMethod(info)
+        let util = SMOObjectiveCUtils()
+        util.logInstanceMethod(info)
     }
     
 //    - (void)logSwiftUtilInsideSamePod {
