@@ -8,14 +8,14 @@
 import Foundation
 
 public class SMOObjeciveCMethodCaller : NSObject {
-    public func logSwiftUtilInsideSamePod() {
+    public func logObjCUtilInsideSamePod() {
         let info = "from \(#file)"
         SMOObjectiveCUtils.logClassMethod(info)
         let util = SMOObjectiveCUtils()
         util.logInstanceMethod(info)
     }
     
-    public class func logSwiftUtilInsideSamePod() {
+    public class func logObjCUtilInsideSamePod() {
         let info = "from \(#file)"
         SMOObjectiveCUtils.logClassMethod(info)
         let util = SMOObjectiveCUtils()
