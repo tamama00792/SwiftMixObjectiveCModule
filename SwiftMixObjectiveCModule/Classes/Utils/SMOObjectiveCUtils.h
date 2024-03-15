@@ -9,6 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 同一组件内调用OC方法的工具类（被调用方）
 @interface SMOObjectiveCUtils : NSObject
 
 + (void)logClassMethod:(NSString *)info;

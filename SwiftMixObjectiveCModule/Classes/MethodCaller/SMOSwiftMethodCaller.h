@@ -9,11 +9,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// OC调用Swift方法的工具类（调用方）
 @interface SMOSwiftMethodCaller : NSObject
 
 - (void)logSwiftUtilInsideSamePod;
 
 + (void)logSwiftUtilInsideSamePod;
+
+- (void)logSwiftUtilBetweenPods;
+
++ (void)logSwiftUtilBetweenPods;
 
 @end
 
